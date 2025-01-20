@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="login">
+        <h1>Rock Paper Scissors</h1>
+        <input type="text" id="username" placeholder="Enter your username">
+        <button id="loginBtn">Login</button>
+    </div>
+    <div id="game" style="display: none;">
+        <h2>Welcome, <span id="playerName"></span>!</h2>
+        <h3 id="status">Searching for an opponent...</h3>
+        <div id="choices" style="display: none;">
+            <button data-move="rock">Rock</button>
+            <button data-move="paper">Paper</button>
+            <button data-move="scissors">Scissors</button>
+        </div>
+        <div id="gameUpdates">
+            <p id="resultText"></p>
+        </div>
+        <button id="playAgainBtn" style="display: none;">Play Again</button>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
