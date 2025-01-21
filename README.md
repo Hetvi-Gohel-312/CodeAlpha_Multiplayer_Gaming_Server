@@ -16,8 +16,8 @@ A fun and interactive Rock Paper Scissors game built using HTML, CSS, and JavaSc
 
 ## Installation and Setup
 1. Clone the repository:
-   -git clone https://github.com/Hetvi-Gohel-312/rock-paper-scissors-game.git
-   -cd cd rock-paper-scissors-game
+   - git clone https://github.com/Hetvi-Gohel-312/rock-paper-scissors-game.git
+   - cd cd rock-paper-scissors-game
 
 2. Install dependencies:
    npm install
